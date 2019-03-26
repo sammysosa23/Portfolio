@@ -1,0 +1,109 @@
+/* MEDIA */
+
+@media (max-width: 600px) {
+  .main-header {
+    height: 50vh;
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+  #cardOne, #cardTwo, #cardThree, #cardFour, #cardFive, #cardSix {
+    max-width: 33% !important;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #grid {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  #grid {
+    width: 65%;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+navbar-fixed {
+  position: absolute;
+}
+
+#headerName {
+  font-size: 20px;
+}
+
+#proficiencyHeader, #projectsHeader {
+  text-align: center;
+}
+
+#navBar {
+  border-bottom: 1px solid;
+}
+
+/* LANDING PAGE IMAGE */
+
+#headerImg {
+  height: 100vh;
+  overflow: hidden;
+  background-image: url("https://www.wallpaperxhd.com/wp-content/uploads/2017/02/3d_abstract_cubes-wallpaper-3840x2160.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+#headerName, #navBarLinks {
+  color: black;
+}
+
+#aboutMeCard {
+  height: 200px !important;
+  width: 800px;
+  padding-bottom: 10rem;
+  float: left;
+  margin-bottom: 20rem;
+}
+
+#aboutMe {
+  height: 100vh;
+  margin: none;
+  padding-bottom: 60px;
+}
+
+#aboutMe, #skillsCont, #projectsDiv {
+  min-height: 100vh;
+}
+
+#objective {
+  margin: auto;
+}
+
+/* PAPER PLANE IMAGE - SEND BUTTON */
+
+.fa-paper-plane {
+  margin-left: 10px;
+}
+
+.card-content {
+  min-height: 165px;
+}
+
+.card {
+  overflow-x: hidden;
+}
+
+.card-picture {
+  width: auto !important;
+  min-width: 100%;
+  align-content: center;
+}
+
+.navContainer {
+  color: black !important;
+}
+
+.fa-ruler, .fa-microphone, .fa-brain {
+  font-size: 3rem;
+}

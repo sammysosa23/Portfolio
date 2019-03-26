@@ -1,0 +1,316 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Sam Terrazas</title>
+
+  <!-- GOOGLE FONT ICONS -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- GOOGLE FONT -->
+
+  <!-- MATERIALIZE CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+  <!-- FONT AWESOME -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+  <!-- MATERIALIZE.CSS -->
+  <link rel="stylesheet" type="text/css" media="screen" href="assets/css/animation.css" />
+  <!-- <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" /> -->
+  <link type="text/css" rel="stylesheet" media="screen" href="assets/css/main.css" />
+
+  <!-- FAVICON  -->
+  <!-- <link rel="shortcut icon" type="image/favicon" href="./assets/images/samFace.png" /> -->
+
+  <!-- JS -->
+  <script src="assets/javascript/app.js" defer></script>
+
+  <script type="text/javascript" src="https://cdn.emailjs.com/sdk/2.3.2/email.min.js"></script>
+  <script type="text/javascript">
+    (function () {
+      emailjs.init("user_pKSyL3rQIuJULDHHpxnGb");
+    })();
+  </script>
+
+</head>
+
+<body>
+  <!-- MAIN NAVBAR -->
+  <nav class="blue darken-4">
+    <div class="nav-wrapper">
+      <div class="container navContainer">
+        <a href="#" class="brand-logo">Sam Terrazas</a>
+        <ul id="nav-mobile" class="right hide-on-small-and-down">
+          <li>
+            <a href="#aboutMe">About</a>
+          </li>
+          <li>
+            <a href="#projectsDiv">Projects</a>
+          </li>
+          <li>
+            <a href="#contactForm">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HEADER -->
+  <div id="headerImg" class="valign-wrapper">
+    <div class="row container center">
+      <div>
+        <h2 id="titleName" class="headerText white-text slideRight">I'm <span class="white-text text-accent-2">Sam
+            Terrazas</span></h2>
+        <h4 class="headerText slideLeft"><span class="red-text text-accent-2">WEB DEVELOPER</span></h4>
+        <!-- <h5 class="headerText red-text slideLeft ">I make things</span></h5> -->
+      </div>
+    </div>
+  </div>
+
+  <!-- ABOUT ME -->
+  <div id="aboutMe" class="section grey lighten-5">
+    <div class="container">
+      <div class="row">
+        <h3 id="proficiencyHeader" class="header">About Me</h3>
+      </div>
+      <div id="skillsContainer" class="row">
+        <div class="col m4">
+          <div class="center promo promo-example">
+            <i class="fas fa-ruler"></i>
+            <h4 class="promo-caption">Design Knowledge</h4>
+            <p class="light center">I focus on using my interpersonal skills to build good user experience. I'm
+              presently expaniding my solid expierience in UI/UX design</p>
+          </div>
+        </div>
+        <div class="col m4">
+          <div class="center promo promo-example">
+            <i class="fas fa-microphone"></i></i>
+            <h4 class="promo-caption">Communicative skills</h4>
+            <p class="light center">Effectively communicating my ideas to others and actively listening in
+              conversations, along with giving and receiving critical feedback.</p>
+          </div>
+        </div>
+        <div class="col m4">
+          <div class="center promo promo-example">
+            <i class="fas fa-brain"></i>
+            <h4 class="promo-caption">Critical Thinking</h4>
+            <p class="light center">Able to evaluate a situation using logical thought and come up with the best
+              solution.</p>
+          </div>
+        </div>
+      </div>
+      <div id="aboutMeCard" class="row">
+        <div class="col s12 m6">
+          <!-- CARD WITH IMAGE & FLOATING BUTTON -->
+          <div class="card grey lighten-4 z-depth-3">
+            <div class="card-image">
+              <img src="./assets/img/sam1.jpg">
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="objective" class="col s12 m6">
+        <h3>Objective</h3>
+        <p>Experienced Web Developer looking for an opportunity to bring solid knowledge of programming, design, and
+          media to a Front-end Development.
+          <br>
+          A profound knowledge of HTML, CSS, Bootstrap, Materialize, jQuery,
+          AJAX, Angular, MySQL, and other similar systems and the ability to effectively design, maintain, and manage
+          enterprise level CMS solutions will be applied</p>
+      </div>
+      <div class="downloadButton">
+        <a href="./resume/SamTerrazas - Resume V1.pdf" target="_blank">
+          <button class="z-depth-5 btn-large black lighten-5 font-weight-bold">Download Resume</button>
+        </a>
+      </div>
+    </div>
+  </div>
+  <!-- PROJECTS -->
+  <div id="projectsDiv" class="section grey lighten-4">
+    <div class="row container">
+      <div class="headerContainer">
+        <h3 id="projectsHeader" class="header">Projects</h3>
+      </div>
+      <div class="row">
+        <div id="cardOne" class="col s12 m6 ">
+          <div class="card grey lighten-4 z-depth-5">
+            <div class="card-image">
+              <img src="./assets/img/crystal.png" alt="Crystal Collector" class="card-picture" height="250px">
+              <a target="_blank" href="https://sammysosa23.github.io/unit-4-game-CC/"
+                class="btn-floating halfway-fab waves-effect waves-light blue"><i class="fas fa-link fa-3x"></i></a>
+            </div>
+            <div class="card-content">
+              <h6>Crystal Collectors</h6>
+              <p>An interactive web browsers game that dynamically updates the HTML with the jQuery library.
+                <br>
+                Tech: HTML, CSS, jQuery.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div id="cardTwo" class="col s12 m6">
+          <div class="card grey lighten-4 z-depth-5">
+            <div class="card-image">
+              <img src="./assets/img/beerTrivia.png" alt="Trivia" class="card-picture" height="250px">
+              <a target="_blank" href="https://sammysosa23.github.io/TriviaGame/"
+                class="btn-floating halfway-fab waves-effect waves-light blue"><i class="fas fa-link fa-3x"></i></a>
+            </div>
+            <div class="card-content">
+              <h6>Beer Trivia</h6>
+              <p> It's a trivia game that uses JavaScript timing events for each question and JQuery to dynamically
+                generate HTML.
+                <br>
+                Tech: HTML, CSS, jQuery.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div id="cardThree" class="col s12 m6">
+          <div class="card grey lighten-4 z-depth-5">
+            <div class="card-image">
+              <img src="./assets/img/trainScheduler.png" alt="Train Scheduler" class="card-picture" height="250px">
+              <a target="_blank" href="https://sammysosa23.github.io/Train-Scheduler/"
+                class="btn-floating halfway-fab waves-effect waves-light blue"><i class="fas fa-link fa-3x"></i></a>
+            </div>
+            <div class="card-content">
+              <h6>Metro-North Railway</h6>
+              <p> A train schedule application that incorporates Firebase to host arrival & departure data.
+                <br>
+                Tech: HTML, CSS, JS, jQuery, FireBase, Moment.js, BootStrap.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div id="cardFour" class="col s12 m6">
+          <div class="card grey lighten-4 z-depth-5">
+            <div class="card-image">
+              <img src="./assets/img/Giftastic.png" alt="GifTastic" class="card-picture" height="250px">
+              <a target="_blank" href="https://sammysosa23.github.io/GifTastic/"
+                class="btn-floating halfway-fab waves-effect waves-light blue"><i class="fas fa-link fa-3x"></i></a>
+            </div>
+            <div class="card-content">
+              <h6>GifTastic</h6>
+              <p>GifTastic is a dynamic web application that populates the GIFs of your choice.
+                <br>
+                Tech: HTML, CSS, JavaScript, jQuery, AJAX, and API's.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div id="cardFive" class="col s12 m6">
+          <div class="card grey lighten-4 z-depth-5">
+            <div class="card-image">
+              <img src="./assets/img/goodBurger.png" alt="Burger" class="card-picture" height="250px">
+              <a target="_blank" href="https://sammysosa23.github.io/TriviaGame/"
+                class="btn-floating halfway-fab waves-effect waves-light blue"><i class="fas fa-link fa-3x"></i></a>
+            </div>
+            <div class="card-content">
+              <h6>Burger</h6>
+              <p>A burger logger app which follows the MVC design pattern and uses Node and MySQL to query data in the
+                app.
+                <br>
+                Tech: HTML, CSS, JS, jQuery, Node.js, MySQL, Express, Handlebars, ORM, MVC
+              </p>
+            </div>
+          </div>
+        </div>
+        <div id="cardTwo" class="col s12 m6">
+          <div class="card grey lighten-4 z-depth-5">
+            <div class="card-image">
+              <img src="./assets/img/friendFinder.png" alt="Friend Finder" class="card-picture" height="250px">
+              <a target="_blank" href="https://arcane-badlands-59243.herokuapp.com/"
+                class="btn-floating halfway-fab waves-effect waves-light blue"><i class="fas fa-link fa-3x"></i></a>
+            </div>
+            <div class="card-content">
+              <h6>Friend Finder</h6>
+              <p>Is a full-stack app that will take in results from the users' survey.
+                <br>
+                Tech: Node.js Express Servers
+              </p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- CONTACT FORM -->
+  <div id="contactForm" class="section grey lighten-5">
+    <div class="container z-depth-4">
+      <div id="contactCard" class="card" style="padding: 15px">
+        <div class="row">
+          <h3 id="contactHeader" class="header">Contact</h3>
+          <form action="" class="col s12">
+            <div class="row">
+              <div class="input-field col s6">
+                <input class="validate" type="text" id="firstName" required>
+                <label for="firstName">First Name</label>
+              </div>
+              <div class="input-field col s6">
+                <input class="validate" type="text" id="lastName" required>
+                <label for="lastName">Last Name</label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="input-field col s12">
+                <input id="email" type="email" class="validate" required>
+                <label for="email">Email</label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="input-field col s12">
+                <input class="validate" type="text" id="message" required>
+                <label for="textarea1">Message</label>
+              </div>
+              <button id="submitButton" class="btn waves-effect waves-light blue darken-4" data-target="" name="action"
+                type="submit">Send<i class="far fa-paper-plane 2px"></i>
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="page-footer blue darken-4">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Social Media</h5>
+          <a href="https://github.com/sammysosa23" target="_blank"><i style="color: white; margin-right: 10px"
+              class="fab fa-github fa-4x"></i></a>
+          <a href="https://www.linkedin.com/in/sammy-terrazas-16a51520/" target="_blank"><i
+              style="color: white; margin-right: 10px" class="fab fa-linkedin fa-4x"></i></a>
+        </div>
+        <div class="col l4 offset-l2 s12">
+          <h5 class="white-text">Links</h5>
+          <ul>
+            <li><a class="grey-text text-lighten-3" href="#aboutMe">About</a></li>
+            <li><a class="grey-text text-lighten-3" href="#projectsDiv">Projects</a></li>
+            <li><a class="grey-text text-lighten-3" href="#contactForm">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+        © 2019 Terrazas ALL RIGHT RESERVED
+        <!-- <a class="grey-text text-lighten-4 right"  -->
+      </div>
+    </div>
+  </footer>
+
+  <!-- JQUERY CDN -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <!-- MATERIALIZE JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+</body>
+
+</html>
